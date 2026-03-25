@@ -30,7 +30,7 @@ public class Contributors {
     /**
      * This method groups the commit ids by contributor. The format of the input is
      * the same as in the previous exercises. The output of this method is a map
-     * where the keys are the usernames of the contributors in the log and the keys
+     * where the keys are the usernames of the contributors in the log and the values
      * are collections of commit ids that belong to the specific contributor.
      * The order of the usernames and ids in the returned map is not important.
      *
