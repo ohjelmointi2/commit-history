@@ -95,7 +95,7 @@ gitGraph
 
 > [!IMPORTANT]
 > Although this task uses Git history as an example, **you do not need to use any new Git commands**. All task logic is implemented using Java strings, methods, and classes.
-> 
+>
 > Typically, in a larger project, there are multiple development branches simultaneously, making the history appear more complex. In this course, we will use only one main development branch, named `master` or `main`.
 
 ## Part 0: solution design *(preparation)*
@@ -165,7 +165,7 @@ The task is checked with the [`PizzaCommitsTest`](./src/test/java/part03/PizzaCo
 > [!NOTE]
 > Note that although the task involves sorting commits, it may not be solvable using just a sorting algorithm. This is because when comparing two commits, you cannot know which one comes first unless they are "parent" and "child" to each other. Therefore, you will need to apply some other method.
 >
-> All project files are saved with UTF-8 encoding, so if you encounter character encoding issues, ensure that both your code and editor are set to the correct encoding. Windows users can set the encoding in Eclipse as shown in [this image](https://ohjelmointi2.github.io/img/eclipse-workspace-encoding.jpg).
+> All project files are saved with UTF-8 encoding, so if you encounter character encoding issues, ensure that both your code and editor are set to the correct encoding.
 >
 > For reading files, Java's [File](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Files.html) and (https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Path.html) classes can be helpful. An example of using these can be found in the `main` method template.
 

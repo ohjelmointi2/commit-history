@@ -1,4 +1,4 @@
-> [!NOTE]  
+> [!NOTE]
 > The English translation for this exercise can be found in [this file](./readme.en.md).
 
 # Soveltava tehtävä: "Commit History"
@@ -101,7 +101,7 @@ gitGraph
 
 > [!IMPORTANT]
 > Vaikka tässä tehtävässä esimerkkinä on Gitin historian käsitteleminen, **sinun ei tarvitse käyttää yhtään uusia Git-komentoja**. Kaikki tehtävän logiikka toteutetaan käyttäen Javan merkkijonoja, metodeja ja luokkia.
-> 
+>
 > Tyypillisesti isommassa projektissa on samanaikaisesti useampia kehityshaaroja, jolloin historia näyttää myös monimutkaisemmalta. Tällä kurssilla käytämme ainoastaan yhtä pääkehityshaaraa, joka on nimeltään `master` tai `main`.
 
 
@@ -175,7 +175,7 @@ Tehtävä tarkastetaan [`PizzaCommitsTest`-yksikkötestiluokalla](./src/test/jav
 > [!NOTE]
 > Huomaa, että vaikka tehtävässä lajitellaan committeja, ei sitä välttämättä voi ratkaista ainakaan pelkän lajittelualgoritmin avulla. Tämä johtuu siitä, että kahta committia vertaillessa et voi tietää, kumpi tulee ensin, elleivät ne eivät ole toistensa "parent" ja "child". Sinun täytyy siis soveltaa jotain muuta menetelmää.
 >
-> Kaikki projektin tiedostot on tallennettu UTF-8 -merkistöllä, joten jos kohtaat ongelmia merkistöjen kanssa, varmista että sekä koodissa että editorissasi on oikea merkistö. Windows-käyttäjät voivat määritellä Eclipsen merkistökoodauksen [tämän kuvan mukaisesti](https://ohjelmointi2.github.io/img/eclipse-workspace-encoding.jpg).
+> Kaikki projektin tiedostot on tallennettu UTF-8 -merkistöllä, joten jos kohtaat ongelmia merkistöjen kanssa, varmista että sekä koodissa että editorissasi on oikea merkistö.
 >
 > Tiedostojen lukemisessa sinua auttavat esimerkiksi Javan [File](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Files.html)- ja [Path](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/nio/file/Path.html)-luokat. Esimerkki näiden käyttämisestä löytyy valmiina `main`-metodin pohjasta.
 
